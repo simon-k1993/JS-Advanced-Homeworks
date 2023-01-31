@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Planetarium</title>
+
+    <style>
+      table,
+      tbody,
+      tr,
+      td {
+        border: 3px solid black;
+        text-align: center;
+        background-color: rgb(180, 113, 243);
+        font-weight: 200;
+      }
+      th {
+        border: 3px solid black;
+        background-color: rgb(142, 165, 42);
+      }
+      button {
+        background-color: aqua;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>PLANETARIUM</h1>
+    <br />
+    <br />
+
+    <button id="btn">Click me</button>
+    <br />
+    <br />
+    <br />
+
+    <div id="newBtn"></div>
+    <br />
+
+    <div>
+      <table>
+        <thead>
+          <tr>
+            <th>PLANET NAME</th>
+
+            <th>POPULATION</th>
+
+            <th>CLIMATE</th>
+
+            <th>GRAVITY</th>
+          </tr>
+        </thead>
+        <tbody id="tb"></tbody>
+      </table>
+    </div>
+    <br />
+    <br />
+    <div id="nextBtn"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
